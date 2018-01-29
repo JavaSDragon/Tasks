@@ -1,4 +1,4 @@
-function addReq(url) {
+let addReq=(url)=> {
     return new Promise((resolve, reject) => {
         let xhr = new XMLHttpRequest()
         xhr.open('GET', url, true);
